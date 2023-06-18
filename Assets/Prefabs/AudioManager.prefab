@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6576791510711048228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6576791510711048226}
+  - component: {fileID: 6576791510711048227}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6576791510711048226
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6576791510711048228}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6576791510711048227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6576791510711048228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec48c1964043f7c469e078f7e446cba8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Killed
+    clip: {fileID: 8300000, guid: 1941f0f6d3ea27f4c97a29480b5c1a35, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Theme1
+    clip: {fileID: 8300000, guid: 7221a81dba071ac4397e728ca7c653df, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Theme2
+    clip: {fileID: 8300000, guid: 8d2cfd27e0ff1f447b36fe82c61841a5, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Theme3
+    clip: {fileID: 8300000, guid: 32ac29ed47f12a544812978b7e5c560d, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Theme4
+    clip: {fileID: 8300000, guid: 3db6b027d8d744748a74912a92b2814d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Ability
+    clip: {fileID: 8300000, guid: 1d22d4244c98991478558fbcbe744707, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Roar
+    clip: {fileID: 8300000, guid: b012edb7c44039841800791a42df67ab, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: a80d2811307b05f44a010c7ef32578b6, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Blood
+    clip: {fileID: 8300000, guid: 04d8dbcf12897d74084fa0997e7f89dd, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: TakingDamage
+    clip: {fileID: 8300000, guid: 8f1a305f3389d2b4d98738b94914d970, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: BossKilled
+    clip: {fileID: 8300000, guid: 8b81a992f70315b4ea70bc78b676fe92, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: WalkRock1
+    clip: {fileID: 8300000, guid: cb8ff5618accffb4aa6f9b98f70ddf17, type: 3}
+    volume: 0.4
+    pitch: 0.1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: WalkRock2
+    clip: {fileID: 8300000, guid: 2dc7ec9d7cf632a4ca72fed0f05743ae, type: 3}
+    volume: 0.4
+    pitch: 0.1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: WalkDirt1
+    clip: {fileID: 8300000, guid: 71dfd8ecb02d2214890e55d28c2a0dad, type: 3}
+    volume: 0.4
+    pitch: 0.1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: WalkDirt2
+    clip: {fileID: 8300000, guid: a9690ce65512d354f9163d894179c22c, type: 3}
+    volume: 0.4
+    pitch: 0.1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Dash1
+    clip: {fileID: 8300000, guid: f9b3fc28d3639094daa058a675098e64, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Dash2
+    clip: {fileID: 8300000, guid: 30367a7be4254164c9c6bb91bfd29b8d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: GunShot
+    clip: {fileID: 8300000, guid: 9321b0a08eeef404cb242d7ba47334d0, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: PlazmaGun
+    clip: {fileID: 8300000, guid: 08062f6c02eea7c45b00c071f79f9c11, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Sniper
+    clip: {fileID: 8300000, guid: 5461efe27a2724e4b89b4c23cffbc38e, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Shotgun
+    clip: {fileID: 8300000, guid: 83f38c16992cce043af53481a78b89a6, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: ClownLaugh
+    clip: {fileID: 8300000, guid: 341b0bd1368d59a428dfc995d6b31efe, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Circus
+    clip: {fileID: 8300000, guid: 8c185342bd0f89a41816ca203a2fa666, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Gladiator1
+    clip: {fileID: 8300000, guid: 6cd87ebbc4250834d8617caa84fe4784, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Gladiator2
+    clip: {fileID: 8300000, guid: 20a65c11b879afc42a7e4b1a28410d9e, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Gladiator3
+    clip: {fileID: 8300000, guid: 1acab119f5d14cd489b64dd56ec01f12, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Totem
+    clip: {fileID: 8300000, guid: 58d56d6ef7a5a1b4ba1eac75d5154b78, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: EvilLaugh
+    clip: {fileID: 8300000, guid: 6c27ad16a14f69e49884a60248fb8b2b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: BalloonPop
+    clip: {fileID: 8300000, guid: f17dd3716381d704f8067aad5fbc77ed, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Pirate1
+    clip: {fileID: 8300000, guid: ba947731bb3309245b8b0ba023189eba, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
+  - name: Pirate2
+    clip: {fileID: 8300000, guid: a06d7f5c3bdce8442bce6cf9415c9b16, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 1
+    group: {fileID: 24300002, guid: 6b4ae90ac5b89014daf74e4802bc33c2, type: 2}
+    source: {fileID: 0}
